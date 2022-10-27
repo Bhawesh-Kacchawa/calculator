@@ -1,0 +1,50 @@
+#container{
+    text-align: center;
+}
+
+table{
+margin: auto;
+/* border: 2px solid black; */
+width: 256px;
+}
+
+button{
+    /* width: 60px; */
+    width: -webkit-fill-available;
+    border: 2px solid black;
+    background-color:  rgb(171,253, 255);
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px;
+    font-family: 'Black Ops One', cursive;
+}
+button:hover{
+    background-color: rgb(77, 94, 252);
+}
+
+#screen{
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 8px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    font-size: 20px;
+    height: 29px;
+    width: 250px;
+}
+
+.calculator{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background: #00ee9f;
+}
+
+#his{
+    width: 150px;
+}
+
+/* button :active{
+    background-color: rgb(77, 94, 252);;
+} */
